@@ -1,12 +1,28 @@
-import { Button } from "@/components/ui/button";
-import { ReviewCard } from "./components/custom/ReviewCard";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import SignUp from "./Pages/SignUp";
+import DashBoard from "./Pages/DashBoard";
+import { useEffect } from "react";
+import { useAppSelector } from "./redux/hooks";
+import  Home  from "./Pages/Home";
+import Cover from "./Pages/Cover";
+
+const router = createBrowserRouter([
+  { path: "/", element: <Cover /> },
+  { path: "/signup", element: <SignUp /> },
+  { path: "/home", element: <DashBoard /> },
+]);
 
 export default function App() {
+  const theme = useAppSelector((state) => state.theme);
+
+  useEffect(() => {
+    document.body.classList.toggle("dark");
+  }, [theme]);
+
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <Button> Hello </Button>
-      <ReviewCard />
+      <RouterProvider router={router} />
+      {/* <Home /> */}
     </>
   );
 }
