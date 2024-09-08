@@ -2,7 +2,7 @@ import { NavBar } from "@/components/component/nav-bar";
 import SideBar from "@/components/custom/SideBar";
 import { FaBookDead } from "react-icons/fa";
 
-const DashBoard: React.FC = () => {
+const Admin: React.FC = () => {
 
   const subjects = [
     {
@@ -18,14 +18,13 @@ const DashBoard: React.FC = () => {
       icon: (<FaBookDead className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />)
     },
   ];
-  
 
   return (
     <>
-      <NavBar/>
+      <NavBar />
       <SideBar subjects={subjects}/>
     </>
   );
 };
 
-export default DashBoard;
+export default Admin;

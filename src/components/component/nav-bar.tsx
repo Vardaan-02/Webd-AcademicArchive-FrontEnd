@@ -5,6 +5,8 @@ import { DropDownNavBar } from "../custom/DropDownNavBar";
 import { useNavigate } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from "@/redux/hooks";
 import { logout } from "@/redux/slices/loginDetails";
+import toast, { Toaster } from "react-hot-toast";
+import { setTab } from "@/redux/slices/tab";
 
 export function NavBar() {
   const navigate = useNavigate();
@@ -12,35 +14,64 @@ export function NavBar() {
 
   const userDetails = useAppSelector((state) => state.loginDetails);
 
-  console.log("heelo", userDetails);
+  const currentTab = useAppSelector(state => state.tab);
 
   return (
-    <header className="shadow-md w-screen">
-      <div className="container flex h-16 items-center justify-between min-w-screen">
+    <header className="shadow-md fixed w-screen">
+      <div className="container flex h-16 items-center justify-between">
         <a href="#" className="flex items-center gap-2">
           <span className="text-lg font-semibold">GDSC</span>
         </a>
         <nav className="hidden space-x-6 md:flex">
           <a
-            href="#"
+            onClick={() => {
+              navigate("/");
+              dispatch(setTab("/"));
+            }}
             className="text-sm font-medium hover:text-primary transition-colors"
           >
             Home
           </a>
           <a
-            href="#"
+            onClick={() => {
+              if (userDetails.first_name.length > 0) {
+                navigate("/dashboard");
+                dispatch(setTab("/dashboard"));
+              } else toast.error("Login Required");
+            }}
+            className="text-sm font-medium hover:text-primary transition-colors"
+          >
+            Dashboard
+          </a>
+          <a
+            onClick={() => {
+              if (userDetails.first_name.length > 0) {
+                navigate("/resources");
+                dispatch(setTab("/resources"));
+              } else toast.error("Login Required");
+            }}
             className="text-sm font-medium hover:text-primary transition-colors"
           >
             Resources
           </a>
+          {userDetails.admin && (
+            <a
+              onClick={() => {
+                if (userDetails.admin) {
+                  navigate("/admin");
+                  dispatch(setTab("/admin"));
+                } else toast.error("Not a Admin");
+              }}
+              className="text-sm font-medium hover:text-primary transition-colors"
+            >
+              Admin
+            </a>
+          )}
           <a
-            href="#"
-            className="text-sm font-medium hover:text-primary transition-colors"
-          >
-            Admin
-          </a>
-          <a
-            href="#"
+            onClick={() => {
+              navigate("/about");
+              dispatch(setTab("/about"));
+            }}
             className="text-sm font-medium hover:text-primary transition-colors"
           >
             About
@@ -51,7 +82,7 @@ export function NavBar() {
           <div className="hidden md:block">
             {userDetails.first_name.length == 0 ? (
               <div className="flex items-center gap-2">
-                <LoginPopUp/>
+                <LoginPopUp />
                 <Button
                   className="px-4 py-2 text-sm font-medium bg-green-700 hover:bg-green-400 text-white"
                   onClick={() => {
@@ -82,6 +113,7 @@ export function NavBar() {
           <DropDownNavBar />
         </div>
       </div>
+      <Toaster />
     </header>
   );
 }

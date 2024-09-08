@@ -7,6 +7,7 @@ const initialState: Details = {
   last_name: "",
   email: "",
   roll_number: "",
+  admin : false,
 };
 
 export const loginDetailsSlice = createSlice({
@@ -19,12 +20,14 @@ export const loginDetailsSlice = createSlice({
       state.last_name = action.payload.last_name;
       state.email = action.payload.email;
       state.roll_number = action.payload.roll_number;
+      state.admin = action.payload.admin;
     },
     logout: (state) => {
       state.first_name = "";
       state.last_name = "";
       state.email = "";
       state.roll_number = "";
+      state.admin = false;
     }
   },
 });

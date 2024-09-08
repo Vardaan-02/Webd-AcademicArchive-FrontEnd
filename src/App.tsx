@@ -3,13 +3,14 @@ import SignUp from "./Pages/SignUp";
 import DashBoard from "./Pages/DashBoard";
 import { useEffect } from "react";
 import { useAppSelector } from "./redux/hooks";
-import  Home  from "./Pages/Home";
 import Cover from "./Pages/Cover";
+import Admin from "./Pages/Admin";
 
 const router = createBrowserRouter([
   { path: "/", element: <Cover /> },
-  { path: "/signup", element: <SignUp /> },
-  { path: "/home", element: <DashBoard /> },
+  { path: "/signUp", element: <SignUp /> },
+  { path: "/dashboard", element: <DashBoard /> },
+  { path: "/admin", element: <Admin /> },
 ]);
 
 export default function App() {
@@ -22,7 +23,6 @@ export default function App() {
   return (
     <>
       <RouterProvider router={router} />
-      {/* <Home /> */}
     </>
   );
 }

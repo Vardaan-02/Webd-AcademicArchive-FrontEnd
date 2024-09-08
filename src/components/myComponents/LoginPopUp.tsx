@@ -14,6 +14,7 @@ import { useAppDispatch } from "@/redux/hooks";
 import { set } from "@/redux/slices/loginDetails";
 import { useLogInMutation } from "@/services/authAPI";
 import { useRef } from "react";
+import toast, { Toaster } from 'react-hot-toast';
 
 export function LoginPopUp() {
   const emailRef = useRef(document.createElement("input"));
@@ -35,9 +36,9 @@ export function LoginPopUp() {
     try {
       const result = await logIn(loginDetails).unwrap();
       dispatch(set(result));
-      console.log("Login successful:", result);
-    } catch (error) {
-      console.error("Login failed:", error);
+      toast.success('Login Successful')
+    } catch (e) {
+      toast.error(`Login Failed`)
       if (emailRef.current) emailRef.current.value = "";
       if (passwordRef.current) passwordRef.current.value = "";
       dispatch(set(undefined));
@@ -88,6 +89,7 @@ export function LoginPopUp() {
           </DialogFooter>
         </form>
       </DialogContent>
+      <Toaster />
     </Dialog>
   );
 }

@@ -29,6 +29,7 @@ export function SignUpForm() {
       roll_number: roll_number.current.value,
       email: email.current.value,
       password: password.current.value,
+      admin:false,
     };
 
     signUp(user);

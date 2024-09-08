@@ -4,6 +4,7 @@ export interface User{
     "roll_number" : string,
     "email" : string,
     "password" : string,
+    "admin" : Boolean,
 }
 
 export interface Details{
@@ -11,6 +12,7 @@ export interface Details{
     "last_name" : string,
     "roll_number" : string,
     "email" : string,
+    "admin" : Boolean,
 }
 
 export interface LoginDetails{
