@@ -1,0 +1,122 @@
+[
+    {
+        "question": "Explain the QuickSort algorithm and its average time complexity.",
+        "answer": "QuickSort is a divide-and-conquer algorithm that picks a pivot element, partitions the array around the pivot, and recursively sorts the partitions. Its average time complexity is O(n log n).",
+        "status": "pending",
+        "tags": "dsa sorting quicksort GDSC",
+        "difficulty": "Medium",
+        "first_name": "Arjun",
+        "last_name": "Mehra",
+        "exam": "Mid Sem",
+        "roll_number": "DSA2023201",
+        "subject": "Data Structures and Algorithms"
+    },
+    {
+        "question": "Implement a binary search algorithm and explain its time complexity.",
+        "answer": "Binary search works on sorted arrays by repeatedly dividing the search interval in half. If the target value matches the middle element, it returns the index. Its time complexity is O(log n).",
+        "status": "pending",
+        "tags": "dsa searching binarySearch GDSC",
+        "difficulty": "Easy",
+        "first_name": "Surbhi",
+        "last_name": "Chauhan",
+        "exam": "Mid Sem",
+        "roll_number": "DSA2023202",
+        "subject": "Data Structures and Algorithms"
+    },
+    {
+        "question": "Describe the difference between a stack and a queue. Provide use cases for each.",
+        "answer": "A stack is a LIFO (Last In, First Out) structure, used in recursive algorithms and undo operations. A queue is a FIFO (First In, First Out) structure, used in scheduling and breadth-first search algorithms.",
+        "status": "pending",
+        "tags": "dsa dataStructures stack queue GDSC",
+        "difficulty": "Easy",
+        "first_name": "Vikram",
+        "last_name": "Shah",
+        "exam": "Mid Sem",
+        "roll_number": "DSA2023203",
+        "subject": "Data Structures and Algorithms"
+    },
+    {
+        "question": "Explain the concept of hash tables and their use in implementing a dictionary.",
+        "answer": "A hash table uses a hash function to map keys to indices in an array, providing efficient key-value storage. It supports average time complexities of O(1) for insertion, deletion, and search.",
+        "status": "pending",
+        "tags": "dsa dataStructures hashTable GDSC",
+        "difficulty": "Medium",
+        "first_name": "Priya",
+        "last_name": "Singhal",
+        "exam": "Mid Sem",
+        "roll_number": "DSA2023204",
+        "subject": "Data Structures and Algorithms"
+    },
+    {
+        "question": "Write a program to detect a cycle in a linked list.",
+        "answer": "Use Floyd’s Cycle-Finding Algorithm, also known as the Tortoise and Hare approach, which uses two pointers. If the pointers meet, there is a cycle; otherwise, there is no cycle.",
+        "status": "pending",
+        "tags": "dsa linkedList cycleDetection GDSC",
+        "difficulty": "Hard",
+        "first_name": "Tanya",
+        "last_name": "Mishra",
+        "exam": "Mid Sem",
+        "roll_number": "DSA2023205",
+        "subject": "Data Structures and Algorithms"
+    },
+    {
+        "question": "Describe the MergeSort algorithm and analyze its space complexity.",
+        "answer": "MergeSort is a divide-and-conquer algorithm that recursively divides the array into halves, sorts them, and merges them back together. Its space complexity is O(n) due to the temporary arrays used for merging.",
+        "status": "pending",
+        "tags": "dsa sorting mergeSort GDSC",
+        "difficulty": "Medium",
+        "first_name": "Aakash",
+        "last_name": "Rao",
+        "exam": "Mid Sem",
+        "roll_number": "DSA2023206",
+        "subject": "Data Structures and Algorithms"
+    },
+    {
+        "question": "Implement a depth-first search (DFS) for a graph and explain its applications.",
+        "answer": "DFS explores nodes and branches of a graph by going as deep as possible before backtracking. Applications include pathfinding, topological sorting, and detecting cycles in graphs.",
+        "status": "pending",
+        "tags": "dsa graphAlgorithms dfs GDSC",
+        "difficulty": "Hard",
+        "first_name": "Rohan",
+        "last_name": "Kapoor",
+        "exam": "Mid Sem",
+        "roll_number": "DSA2023207",
+        "subject": "Data Structures and Algorithms"
+    },
+    {
+        "question": "What is dynamic programming and how does it differ from divide-and-conquer?",
+        "answer": "Dynamic programming solves problems by breaking them into overlapping subproblems, storing solutions to avoid redundant work. Unlike divide-and-conquer, which solves independent subproblems, dynamic programming optimizes recursive algorithms by caching.",
+        "status": "pending",
+        "tags": "dsa algorithms dynamicProgramming GDSC",
+        "difficulty": "Hard",
+        "first_name": "Shreya",
+        "last_name": "Joshi",
+        "exam": "Mid Sem",
+        "roll_number": "DSA2023208",
+        "subject": "Data Structures and Algorithms"
+    },
+    {
+        "question": "Explain how a binary heap works and its applications in implementing a priority queue.",
+        "answer": "A binary heap is a complete binary tree where each node is smaller (min-heap) or larger (max-heap) than its children. It supports efficient insertion, deletion, and retrieval of the minimum or maximum element, making it suitable for priority queues.",
+        "status": "pending",
+        "tags": "dsa dataStructures binaryHeap GDSC",
+        "difficulty": "Medium",
+        "first_name": "Nikhil",
+        "last_name": "Chopra",
+        "exam": "Mid Sem",
+        "roll_number": "DSA2023209",
+        "subject": "Data Structures and Algorithms"
+    },
+    {
+        "question": "Describe the Bellman-Ford algorithm and its use case in graph theory.",
+        "answer": "The Bellman-Ford algorithm finds the shortest paths from a single source vertex to all other vertices in a weighted graph, accommodating negative weights. It iteratively relaxes edges and detects negative cycles.",
+        "status": "pending",
+        "tags": "dsa graphAlgorithms bellmanFord GDSC",
+        "difficulty": "Hard",
+        "first_name": "Ankita",
+        "last_name": "Singh",
+        "exam": "Mid Sem",
+        "roll_number": "DSA2023210",
+        "subject": "Data Structures and Algorithms"
+    }
+]

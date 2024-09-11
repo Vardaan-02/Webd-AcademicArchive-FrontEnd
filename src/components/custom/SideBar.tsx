@@ -1,24 +1,28 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Sidebar, SidebarBody, SidebarLink } from "../ui/sidebar";
 import { cn } from "@/lib/utils";
 import DashBoardInSideBar from "../myComponents/DashBoardInSideBar";
-import tab from "@/redux/slices/tab";
-import { useAppSelector } from "@/redux/hooks";
+import { useAppDispatch, useAppSelector } from "@/redux/hooks";
 import AdminPortalInSideBar from "../myComponents/AdminPortalInSideBar";
+import { setSubject } from "@/redux/slices/subject";
 
 interface props {
   subjects:any,
 }
 
+
+// Side bar imported form aceternity but changed to meet requirements
 const SideBar: React.FC<props> = ({ subjects }) => {
-  const [subject, setSubject] = useState("DSA");
 
   const currentTab = useAppSelector(state => state.tab);
+  const currentSubject = useAppSelector(state => state.subject);
+  const dispatch = useAppDispatch();
 
-  const handleClick = (link: any) => {
-    setSubject(link.label);
-    console.log(subject);
+
+  // Handling tab change on Side-Bar , a redux state is created for the same , normal state could have been used.
+  const handleClick = (link: any) => { 
+    dispatch(setSubject(link.label));
   };
 
   const [open, setOpen] = useState(false);
@@ -40,7 +44,7 @@ const SideBar: React.FC<props> = ({ subjects }) => {
                     handleClick(link);
                   }}
                   className={`px-4 py-2 rounded ${
-                    link.label === subject && "bg-zinc-300"
+                    link.label === currentSubject && "bg-zinc-300 dark:bg-zinc-800"
                   }`}
                 >
                   <SidebarLink link={link} />

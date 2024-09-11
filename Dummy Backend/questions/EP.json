@@ -1,0 +1,122 @@
+[
+    {
+        "question": "Derive the expression for the energy levels of a particle in a one-dimensional infinite potential well.",
+        "answer": "Use the Schrödinger equation with boundary conditions that the wave function vanishes at the walls of the potential well. Solve the equation to find the allowed energy levels.",
+        "status": "pending",
+        "tags": "physics quantumMechanics infinitePotentialWell GDSC",
+        "difficulty": "Hard",
+        "first_name": "Aditya",
+        "last_name": "Rana",
+        "exam": "Mid Sem",
+        "roll_number": "EP2023201",
+        "subject": "Engineering Physics"
+    },
+    {
+        "question": "Explain the photoelectric effect and derive Einstein’s photoelectric equation.",
+        "answer": "The photoelectric effect occurs when light ejects electrons from a material. Einstein's equation relates the kinetic energy of ejected electrons to the energy of incident photons and the work function of the material: KE = hf - φ.",
+        "status": "pending",
+        "tags": "physics photoelectricEffect Einstein GDSC",
+        "difficulty": "Medium",
+        "first_name": "Sonal",
+        "last_name": "Kumar",
+        "exam": "Mid Sem",
+        "roll_number": "EP2023202",
+        "subject": "Engineering Physics"
+    },
+    {
+        "question": "Calculate the de Broglie wavelength of an electron accelerated through a potential difference of 100 V.",
+        "answer": "Use the de Broglie wavelength formula λ = h/p, where p is the momentum of the electron. Calculate momentum using p = √(2meV), where V is the potential difference, m is the electron mass, and e is the electron charge.",
+        "status": "pending",
+        "tags": "physics deBroglieWavelength quantumMechanics GDSC",
+        "difficulty": "Easy",
+        "first_name": "Pooja",
+        "last_name": "Nair",
+        "exam": "Mid Sem",
+        "roll_number": "EP2023203",
+        "subject": "Engineering Physics"
+    },
+    {
+        "question": "Discuss the principle of operation of a laser and describe the population inversion condition.",
+        "answer": "A laser operates on the principle of stimulated emission. Population inversion occurs when a higher energy level has more particles than a lower one, enabling amplification of light.",
+        "status": "pending",
+        "tags": "physics laser populationInversion GDSC",
+        "difficulty": "Medium",
+        "first_name": "Raj",
+        "last_name": "Saxena",
+        "exam": "Mid Sem",
+        "roll_number": "EP2023204",
+        "subject": "Engineering Physics"
+    },
+    {
+        "question": "Explain the Heisenberg uncertainty principle and its implications in quantum mechanics.",
+        "answer": "The Heisenberg uncertainty principle states that it is impossible to simultaneously know both the exact position and momentum of a particle. This principle implies fundamental limits on measurements in quantum mechanics.",
+        "status": "pending",
+        "tags": "physics uncertaintyPrinciple quantumMechanics GDSC",
+        "difficulty": "Hard",
+        "first_name": "Maya",
+        "last_name": "Chopra",
+        "exam": "Mid Sem",
+        "roll_number": "EP2023205",
+        "subject": "Engineering Physics"
+    },
+    {
+        "question": "Derive the expression for the speed of sound in a medium.",
+        "answer": "The speed of sound in a medium is derived from the equation v = √(B/ρ), where B is the bulk modulus of the medium and ρ is the density of the medium.",
+        "status": "pending",
+        "tags": "physics soundWaves speedOfSound GDSC",
+        "difficulty": "Easy",
+        "first_name": "Ishaan",
+        "last_name": "Thakur",
+        "exam": "Mid Sem",
+        "roll_number": "EP2023206",
+        "subject": "Engineering Physics"
+    },
+    {
+        "question": "Describe the working principle of a PN junction diode and its V-I characteristics.",
+        "answer": "A PN junction diode allows current to flow in one direction. When forward biased, it conducts; when reverse biased, it blocks current. The V-I characteristics show exponential increase in current with forward voltage.",
+        "status": "pending",
+        "tags": "physics electronics PNjunction GDSC",
+        "difficulty": "Medium",
+        "first_name": "Ritika",
+        "last_name": "Malhotra",
+        "exam": "Mid Sem",
+        "roll_number": "EP2023207",
+        "subject": "Engineering Physics"
+    },
+    {
+        "question": "What is the Compton effect? Derive the Compton shift equation.",
+        "answer": "The Compton effect describes the scattering of X-rays by electrons, resulting in a change in wavelength. The shift in wavelength is given by Δλ = (h/mc)(1 - cos θ), where θ is the scattering angle.",
+        "status": "pending",
+        "tags": "physics comptonEffect quantumMechanics GDSC",
+        "difficulty": "Hard",
+        "first_name": "Kunal",
+        "last_name": "Bhatia",
+        "exam": "Mid Sem",
+        "roll_number": "EP2023208",
+        "subject": "Engineering Physics"
+    },
+    {
+        "question": "Explain the concept of wave-particle duality with examples.",
+        "answer": "Wave-particle duality refers to the dual nature of particles, like electrons and photons, exhibiting both wave-like and particle-like properties. Examples include the double-slit experiment and photoelectric effect.",
+        "status": "pending",
+        "tags": "physics waveParticleDuality quantumMechanics GDSC",
+        "difficulty": "Medium",
+        "first_name": "Tanvi",
+        "last_name": "Deshmukh",
+        "exam": "Mid Sem",
+        "roll_number": "EP2023209",
+        "subject": "Engineering Physics"
+    },
+    {
+        "question": "Derive the formula for the capacitive reactance of a capacitor in an AC circuit.",
+        "answer": "The capacitive reactance Xc is given by Xc = 1/(2πfC), where f is the frequency of the AC signal and C is the capacitance. This formula shows the inverse relationship between reactance and frequency.",
+        "status": "pending",
+        "tags": "physics ACcircuits capacitiveReactance GDSC",
+        "difficulty": "Easy",
+        "first_name": "Neha",
+        "last_name": "Reddy",
+        "exam": "Mid Sem",
+        "roll_number": "EP2023210",
+        "subject": "Engineering Physics"
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "question": "Explain the four main principles of Object-Oriented Programming (OOP).",
+        "answer": "The four main principles of OOP are Encapsulation (bundling data with methods), Abstraction (hiding complexity), Inheritance (deriving new classes from existing ones), and Polymorphism (using a single interface for different data types).",
+        "status": "pending",
+        "tags": "oops principles encapsulation inheritance polymorphism GDSC",
+        "difficulty": "Medium",
+        "first_name": "Aarav",
+        "last_name": "Khanna",
+        "exam": "Mid Sem",
+        "roll_number": "OOP2023201",
+        "subject": "Object-Oriented Programming"
+    },
+    {
+        "question": "What is the difference between a class and an object in OOP?",
+        "answer": "A class is a blueprint or template for creating objects, defining properties and methods. An object is an instance of a class, representing a specific entity with the class's defined attributes and behaviors.",
+        "status": "pending",
+        "tags": "oops class object GDSC",
+        "difficulty": "Easy",
+        "first_name": "Priya",
+        "last_name": "Mehra",
+        "exam": "Mid Sem",
+        "roll_number": "OOP2023202",
+        "subject": "Object-Oriented Programming"
+    },
+    {
+        "question": "Describe the concept of inheritance and its types in OOP.",
+        "answer": "Inheritance allows a class (child) to inherit attributes and methods from another class (parent). Types of inheritance include single, multiple, multilevel, hierarchical, and hybrid inheritance.",
+        "status": "pending",
+        "tags": "oops inheritance types GDSC",
+        "difficulty": "Medium",
+        "first_name": "Kavya",
+        "last_name": "Nair",
+        "exam": "Mid Sem",
+        "roll_number": "OOP2023203",
+        "subject": "Object-Oriented Programming"
+    },
+    {
+        "question": "What is polymorphism in OOP and how is it implemented?",
+        "answer": "Polymorphism allows methods to perform differently based on the object that is calling them. It is implemented through method overloading (compile-time polymorphism) and method overriding (runtime polymorphism).",
+        "status": "pending",
+        "tags": "oops polymorphism overloading overriding GDSC",
+        "difficulty": "Medium",
+        "first_name": "Rishi",
+        "last_name": "Malhotra",
+        "exam": "Mid Sem",
+        "roll_number": "OOP2023204",
+        "subject": "Object-Oriented Programming"
+    },
+    {
+        "question": "Explain the concept of encapsulation with an example.",
+        "answer": "Encapsulation is the bundling of data and methods that operate on the data into a single unit or class, and restricting access to some of the object's components. For example, a class 'Car' can encapsulate properties like speed and color with methods to change speed, but keep the speed variable private.",
+        "status": "pending",
+        "tags": "oops encapsulation GDSC",
+        "difficulty": "Easy",
+        "first_name": "Sakshi",
+        "last_name": "Verma",
+        "exam": "Mid Sem",
+        "roll_number": "OOP2023205",
+        "subject": "Object-Oriented Programming"
+    },
+    {
+        "question": "What is abstraction in OOP and why is it important?",
+        "answer": "Abstraction involves hiding the complex reality while exposing only the essential parts. It helps in reducing programming complexity and effort by allowing the programmer to focus on interactions at a higher level of the application.",
+        "status": "pending",
+        "tags": "oops abstraction GDSC",
+        "difficulty": "Medium",
+        "first_name": "Neeraj",
+        "last_name": "Saxena",
+        "exam": "Mid Sem",
+        "roll_number": "OOP2023206",
+        "subject": "Object-Oriented Programming"
+    },
+    {
+        "question": "Differentiate between method overloading and method overriding.",
+        "answer": "Method overloading allows multiple methods in the same class with the same name but different parameters. Method overriding occurs when a subclass has a method with the same name and parameters as a method in its superclass, providing a specific implementation.",
+        "status": "pending",
+        "tags": "oops methodOverloading methodOverriding GDSC",
+        "difficulty": "Hard",
+        "first_name": "Tanya",
+        "last_name": "Bhatia",
+        "exam": "Mid Sem",
+        "roll_number": "OOP2023207",
+        "subject": "Object-Oriented Programming"
+    },
+    {
+        "question": "What is a constructor in OOP, and how does it differ from a method?",
+        "answer": "A constructor is a special method automatically called when an object is created. Unlike regular methods, constructors have no return type and usually share the name of the class, initializing object attributes.",
+        "status": "pending",
+        "tags": "oops constructor method GDSC",
+        "difficulty": "Easy",
+        "first_name": "Arjun",
+        "last_name": "Patel",
+        "exam": "Mid Sem",
+        "roll_number": "OOP2023208",
+        "subject": "Object-Oriented Programming"
+    },
+    {
+        "question": "Explain the concept of access specifiers in OOP.",
+        "answer": "Access specifiers in OOP define the accessibility of class members. Common access specifiers include public (accessible everywhere), private (accessible within the class), and protected (accessible within the class and subclasses).",
+        "status": "pending",
+        "tags": "oops accessSpecifiers GDSC",
+        "difficulty": "Medium",
+        "first_name": "Radhika",
+        "last_name": "Mishra",
+        "exam": "Mid Sem",
+        "roll_number": "OOP2023209",
+        "subject": "Object-Oriented Programming"
+    },
+    {
+        "question": "What is the role of 'this' keyword in OOP?",
+        "answer": "The 'this' keyword refers to the current instance of the class. It is used to access class members, differentiate between class attributes and parameters, and pass the current object as a parameter to other methods.",
+        "status": "pending",
+        "tags": "oops thisKeyword GDSC",
+        "difficulty": "Easy",
+        "first_name": "Vivek",
+        "last_name": "Jain",
+        "exam": "Mid Sem",
+        "roll_number": "OOP2023210",
+        "subject": "Object-Oriented Programming"
+    }
+]

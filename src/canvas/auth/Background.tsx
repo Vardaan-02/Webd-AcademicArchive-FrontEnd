@@ -6,11 +6,14 @@ function Background() {
   const [height,setHeight] = useState(window.innerHeight);
   const [width,setWidth] = useState(window.innerWidth);
 
+
+  //This is to handle resize of window
   window.onresize = () => {
     setHeight(window.innerHeight);
     setWidth(window.innerWidth);
   }
 
+    // recursive function to draw frames to make it feel like animation
   function animation(circleArr: Array<any>, context: any) {
     requestAnimationFrame(() => {
       animation(circleArr, context);
@@ -21,6 +24,7 @@ function Background() {
     });
   }
 
+  // Loading the actual animation
   useEffect(() => {
     const canvas: any = canvasRef.current;
     canvas.height = height;

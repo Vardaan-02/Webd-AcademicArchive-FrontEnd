@@ -1,0 +1,122 @@
+[
+    {
+        "question": "Define and differentiate between probability and conditional probability.",
+        "answer": "Probability is the measure of the likelihood of an event occurring, ranging from 0 to 1. Conditional probability is the probability of an event occurring given that another event has already occurred, denoted by P(A|B).",
+        "status": "pending",
+        "tags": "probability conditionalProbability GDSC",
+        "difficulty": "Medium",
+        "first_name": "Rohit",
+        "last_name": "Bansal",
+        "exam": "Mid Sem",
+        "roll_number": "PS2023201",
+        "subject": "Probability and Statistics"
+    },
+    {
+        "question": "What is a random variable, and how does it differ from a probability distribution?",
+        "answer": "A random variable is a variable that takes on numerical values based on the outcome of a random phenomenon. A probability distribution, on the other hand, describes how the probabilities are distributed over the values of the random variable.",
+        "status": "pending",
+        "tags": "probability randomVariable distribution GDSC",
+        "difficulty": "Easy",
+        "first_name": "Sneha",
+        "last_name": "Agarwal",
+        "exam": "Mid Sem",
+        "roll_number": "PS2023202",
+        "subject": "Probability and Statistics"
+    },
+    {
+        "question": "Explain the central limit theorem and its significance.",
+        "answer": "The central limit theorem states that the distribution of the sum (or average) of a large number of independent, identically distributed variables approaches a normal distribution, regardless of the original distribution. It is significant because it justifies the use of normal distribution in many statistical procedures.",
+        "status": "pending",
+        "tags": "probability centralLimitTheorem GDSC",
+        "difficulty": "Hard",
+        "first_name": "Madhav",
+        "last_name": "Shah",
+        "exam": "Mid Sem",
+        "roll_number": "PS2023203",
+        "subject": "Probability and Statistics"
+    },
+    {
+        "question": "Differentiate between discrete and continuous probability distributions.",
+        "answer": "Discrete probability distributions deal with countable outcomes, like the number of heads in coin tosses (e.g., binomial distribution). Continuous probability distributions deal with uncountable outcomes, like the exact height of individuals (e.g., normal distribution).",
+        "status": "pending",
+        "tags": "probability discrete continuous distribution GDSC",
+        "difficulty": "Medium",
+        "first_name": "Aarushi",
+        "last_name": "Patel",
+        "exam": "Mid Sem",
+        "roll_number": "PS2023204",
+        "subject": "Probability and Statistics"
+    },
+    {
+        "question": "What is a p-value, and how is it used in hypothesis testing?",
+        "answer": "A p-value is the probability of observing a test statistic as extreme as, or more extreme than, the value observed under the null hypothesis. It is used in hypothesis testing to determine whether to reject the null hypothesis; a low p-value (typically < 0.05) indicates strong evidence against the null hypothesis.",
+        "status": "pending",
+        "tags": "stats pValue hypothesisTesting GDSC",
+        "difficulty": "Medium",
+        "first_name": "Aditya",
+        "last_name": "Sinha",
+        "exam": "Mid Sem",
+        "roll_number": "PS2023205",
+        "subject": "Probability and Statistics"
+    },
+    {
+        "question": "Define and explain the difference between mean, median, and mode.",
+        "answer": "Mean is the average of a set of numbers, median is the middle value when the numbers are sorted, and mode is the most frequently occurring value. Mean considers all values, median is unaffected by outliers, and mode reflects the most common value.",
+        "status": "pending",
+        "tags": "stats mean median mode GDSC",
+        "difficulty": "Easy",
+        "first_name": "Isha",
+        "last_name": "Kumar",
+        "exam": "Mid Sem",
+        "roll_number": "PS2023206",
+        "subject": "Probability and Statistics"
+    },
+    {
+        "question": "What is a normal distribution, and why is it important in statistics?",
+        "answer": "A normal distribution is a continuous probability distribution that is symmetric about the mean, with data near the mean more frequent in occurrence than data far from the mean. It is important because many statistical tests assume normality, and it models many natural phenomena.",
+        "status": "pending",
+        "tags": "stats normalDistribution GDSC",
+        "difficulty": "Medium",
+        "first_name": "Kunal",
+        "last_name": "Joshi",
+        "exam": "Mid Sem",
+        "roll_number": "PS2023207",
+        "subject": "Probability and Statistics"
+    },
+    {
+        "question": "Explain the concept of standard deviation and its significance.",
+        "answer": "Standard deviation measures the dispersion or spread of a set of data points relative to their mean. A low standard deviation indicates that the data points tend to be close to the mean, while a high standard deviation indicates a wide spread around the mean.",
+        "status": "pending",
+        "tags": "stats standardDeviation GDSC",
+        "difficulty": "Easy",
+        "first_name": "Tanya",
+        "last_name": "Rao",
+        "exam": "Mid Sem",
+        "roll_number": "PS2023208",
+        "subject": "Probability and Statistics"
+    },
+    {
+        "question": "What is correlation, and how is it different from causation?",
+        "answer": "Correlation measures the strength and direction of a linear relationship between two variables. Causation implies that one variable directly affects another. Correlation does not imply causation; two variables may be correlated without one causing the other.",
+        "status": "pending",
+        "tags": "stats correlation causation GDSC",
+        "difficulty": "Medium",
+        "first_name": "Yash",
+        "last_name": "Desai",
+        "exam": "Mid Sem",
+        "roll_number": "PS2023209",
+        "subject": "Probability and Statistics"
+    },
+    {
+        "question": "Describe the law of large numbers and its implications.",
+        "answer": "The law of large numbers states that as the size of a sample increases, the sample mean will get closer to the population mean. This implies that larger samples provide more accurate estimates of the population parameters.",
+        "status": "pending",
+        "tags": "probability lawOfLargeNumbers GDSC",
+        "difficulty": "Hard",
+        "first_name": "Ishita",
+        "last_name": "Shah",
+        "exam": "Mid Sem",
+        "roll_number": "PS2023210",
+        "subject": "Probability and Statistics"
+    }
+]

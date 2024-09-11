@@ -1,0 +1,122 @@
+[
+    {
+        "question": "Explain the basic structure of a computer system.",
+        "answer": "A computer system consists of input devices, output devices, CPU (which includes the Control Unit, Arithmetic Logic Unit, and registers), memory (RAM and ROM), and storage devices. The CPU processes instructions, and the control unit directs operations.",
+        "status": "pending",
+        "tags": "coa computerSystem structure GDSC",
+        "difficulty": "Easy",
+        "first_name": "Nikita",
+        "last_name": "Sharma",
+        "exam": "Mid Sem",
+        "roll_number": "COA2023201",
+        "subject": "Computer Organization and Architecture"
+    },
+    {
+        "question": "Describe the fetch-decode-execute cycle in a CPU.",
+        "answer": "The fetch-decode-execute cycle is the process by which a CPU retrieves an instruction from memory (fetch), interprets what action is required (decode), and performs the instruction (execute). This cycle repeats continuously while the computer is powered on.",
+        "status": "pending",
+        "tags": "coa fetchDecodeExecute cpu GDSC",
+        "difficulty": "Medium",
+        "first_name": "Aakash",
+        "last_name": "Singh",
+        "exam": "Mid Sem",
+        "roll_number": "COA2023202",
+        "subject": "Computer Organization and Architecture"
+    },
+    {
+        "question": "What is pipelining in computer architecture?",
+        "answer": "Pipelining is a technique where multiple instruction phases (fetch, decode, execute, etc.) are overlapped to improve CPU performance. Each phase is processed in a pipeline stage, allowing multiple instructions to be executed simultaneously.",
+        "status": "pending",
+        "tags": "coa pipelining cpu GDSC",
+        "difficulty": "Medium",
+        "first_name": "Varun",
+        "last_name": "Mehta",
+        "exam": "Mid Sem",
+        "roll_number": "COA2023203",
+        "subject": "Computer Organization and Architecture"
+    },
+    {
+        "question": "Differentiate between RISC and CISC architectures.",
+        "answer": "RISC (Reduced Instruction Set Computer) architecture uses a small, highly optimized set of instructions, while CISC (Complex Instruction Set Computer) architecture uses a larger set of instructions, some of which are very complex. RISC focuses on efficiency, while CISC aims to minimize the number of instructions per program.",
+        "status": "pending",
+        "tags": "coa risc cisc GDSC",
+        "difficulty": "Hard",
+        "first_name": "Neha",
+        "last_name": "Kapoor",
+        "exam": "Mid Sem",
+        "roll_number": "COA2023204",
+        "subject": "Computer Organization and Architecture"
+    },
+    {
+        "question": "Explain cache memory and its importance in a computer system.",
+        "answer": "Cache memory is a small, high-speed memory located close to the CPU. It stores frequently accessed data and instructions, reducing the time needed to access data from the main memory, thereby improving overall system performance.",
+        "status": "pending",
+        "tags": "coa cacheMemory GDSC",
+        "difficulty": "Easy",
+        "first_name": "Rahul",
+        "last_name": "Saxena",
+        "exam": "Mid Sem",
+        "roll_number": "COA2023205",
+        "subject": "Computer Organization and Architecture"
+    },
+    {
+        "question": "What is virtual memory, and how does it work?",
+        "answer": "Virtual memory is a memory management technique that gives an application the impression it has contiguous working memory while physically it is fragmented and may be partially stored on disk. It uses page tables to map virtual addresses to physical addresses.",
+        "status": "pending",
+        "tags": "coa virtualMemory GDSC",
+        "difficulty": "Medium",
+        "first_name": "Pooja",
+        "last_name": "Mishra",
+        "exam": "Mid Sem",
+        "roll_number": "COA2023206",
+        "subject": "Computer Organization and Architecture"
+    },
+    {
+        "question": "Describe the concept of memory hierarchy in a computer system.",
+        "answer": "Memory hierarchy in a computer system organizes memory types by speed and cost, including registers, cache, main memory (RAM), and secondary storage (HDD/SSD). Faster, more expensive memory is closer to the CPU, providing a balance of speed and capacity.",
+        "status": "pending",
+        "tags": "coa memoryHierarchy GDSC",
+        "difficulty": "Medium",
+        "first_name": "Sahil",
+        "last_name": "Gupta",
+        "exam": "Mid Sem",
+        "roll_number": "COA2023207",
+        "subject": "Computer Organization and Architecture"
+    },
+    {
+        "question": "What is the function of an ALU in a CPU?",
+        "answer": "The Arithmetic Logic Unit (ALU) is a critical component of the CPU that performs arithmetic (addition, subtraction, etc.) and logical (AND, OR, NOT) operations. It is essential for executing instructions and processing data.",
+        "status": "pending",
+        "tags": "coa alu cpu GDSC",
+        "difficulty": "Easy",
+        "first_name": "Anjali",
+        "last_name": "Pandey",
+        "exam": "Mid Sem",
+        "roll_number": "COA2023208",
+        "subject": "Computer Organization and Architecture"
+    },
+    {
+        "question": "Explain the concept of DMA in computer systems.",
+        "answer": "Direct Memory Access (DMA) allows peripherals to directly read from and write to the main memory without CPU intervention, speeding up data transfers and freeing up CPU resources for other tasks.",
+        "status": "pending",
+        "tags": "coa dma GDSC",
+        "difficulty": "Medium",
+        "first_name": "Manish",
+        "last_name": "Verma",
+        "exam": "Mid Sem",
+        "roll_number": "COA2023209",
+        "subject": "Computer Organization and Architecture"
+    },
+    {
+        "question": "What is a microprocessor and how does it differ from a microcontroller?",
+        "answer": "A microprocessor is a central processing unit on a single chip, focused on computation and control functions. A microcontroller includes a microprocessor, along with memory and I/O peripherals, designed for specific control applications like embedded systems.",
+        "status": "pending",
+        "tags": "coa microprocessor microcontroller GDSC",
+        "difficulty": "Hard",
+        "first_name": "Kritika",
+        "last_name": "Yadav",
+        "exam": "Mid Sem",
+        "roll_number": "COA2023210",
+        "subject": "Computer Organization and Architecture"
+    }
+]

@@ -16,6 +16,8 @@ import { useLogInMutation } from "@/services/authAPI";
 import { useRef } from "react";
 import toast, { Toaster } from 'react-hot-toast';
 
+
+//Multiple Components from ShadCN mixed to form a popUp
 export function LoginPopUp() {
   const emailRef = useRef(document.createElement("input"));
   const passwordRef = useRef<HTMLInputElement | null>(null);

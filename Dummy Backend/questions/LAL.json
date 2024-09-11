@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Solve the system of linear equations using Gaussian elimination.",
+    "answer": "Apply row operations to reduce the augmented matrix to row echelon form, and then back substitute to find the solution.",
+    "status": "pending",
+    "tags": "linearAlgebra GaussianElimination GDSC",
+    "difficulty": "Medium",
+    "first_name": "Pratham",
+    "last_name": "Jain",
+    "exam": "Mid Sem",
+    "roll_number": "IIT2023201",
+    "subject": "Linear Algebra"
+  },
+  {
+    "question": "Determine if the given matrix is invertible.",
+    "answer": "A matrix is invertible if its determinant is non-zero. Calculate the determinant; if it's non-zero, the matrix is invertible.",
+    "status": "pending",
+    "tags": "linearAlgebra invertibleMatrix GDSC",
+    "difficulty": "Easy",
+    "first_name": "Ashish",
+    "last_name": "Saraswat",
+    "exam": "Mid Sem",
+    "roll_number": "IIT2023202",
+    "subject": "Linear Algebra"
+  },
+  {
+    "question": "Find the rank of the given matrix.",
+    "answer": "The rank of a matrix is the number of linearly independent rows or columns. Use row reduction to echelon form and count the non-zero rows.",
+    "status": "pending",
+    "tags": "linearAlgebra matrixRank GDSC",
+    "difficulty": "Medium",
+    "first_name": "Rahul",
+    "last_name": "Verma",
+    "exam": "Mid Sem",
+    "roll_number": "IIT2023203",
+    "subject": "Linear Algebra"
+  },
+  {
+    "question": "Calculate the determinant of the 3x3 matrix.",
+    "answer": "Use the rule of Sarrus or cofactor expansion to calculate the determinant of the 3x3 matrix.",
+    "status": "pending",
+    "tags": "linearAlgebra Determinant GDSC",
+    "difficulty": "Easy",
+    "first_name": "Nikita",
+    "last_name": "Sharma",
+    "exam": "Mid Sem",
+    "roll_number": "IIT2023204",
+    "subject": "Linear Algebra"
+  },
+  {
+    "question": "Prove that the vectors are linearly independent.",
+    "answer": "Set up the equation c1*v1 + c2*v2 + ... + cn*vn = 0, where c1, c2, ..., cn are scalars. Show that the only solution is c1 = c2 = ... = cn = 0.",
+    "status": "pending",
+    "tags": "linearAlgebra linearIndependence GDSC",
+    "difficulty": "Hard",
+    "first_name": "Sakshi",
+    "last_name": "Patel",
+    "exam": "Mid Sem",
+    "roll_number": "IIT2023205",
+    "subject": "Linear Algebra"
+  },
+  {
+    "question": "Find the eigenvalues and eigenvectors of the given matrix.",
+    "answer": "Solve the characteristic equation det(A - λI) = 0 to find eigenvalues, and then find corresponding eigenvectors using (A - λI)X = 0.",
+    "status": "pending",
+    "tags": "linear algebra eigenvalues eigenvectors GDSC",
+    "difficulty": "Hard",
+    "first_name": "Manish",
+    "last_name": "Gupta",
+    "exam": "Mid Sem",
+    "roll_number": "IIT2023206",
+    "subject": "Linear Algebra"
+  },
+  {
+    "question": "Verify if the given matrix is orthogonal.",
+    "answer": "A matrix is orthogonal if its transpose is equal to its inverse. Check if A^T * A = I, where A^T is the transpose of A, and I is the identity matrix.",
+    "status": "pending",
+    "tags": "linearAlgebra orthogonalMatrix GDSC",
+    "difficulty": "Medium",
+    "first_name": "Anjali",
+    "last_name": "Mehta",
+    "exam": "Mid Sem",
+    "roll_number": "IIT2023207",
+    "subject": "Linear Algebra"
+  },
+  {
+    "question": "Find the null space of the given matrix.",
+    "answer": "To find the null space, solve the homogeneous equation Ax = 0, where A is the matrix and x is the variable vector.",
+    "status": "pending",
+    "tags": "linearAlgebra nullSpace GDSC",
+    "difficulty": "Hard",
+    "first_name": "Rohit",
+    "last_name": "Agarwal",
+    "exam": "Mid Sem",
+    "roll_number": "IIT2023208",
+    "subject": "Linear Algebra"
+  },
+  {
+    "question": "Compute the trace of the given matrix.",
+    "answer": "The trace of a matrix is the sum of the diagonal elements. Add all the diagonal elements of the matrix to find the trace.",
+    "status": "pending",
+    "tags": "linearAlgebra trace GDSC",
+    "subject": "Linear Algebra",
+    "exam": "Mid Sem",
+    "difficulty": "Easy",
+    "first_name": "Sanya",
+    "last_name": "Kapoor",
+    "roll_number": "IIT2023209"
+  },
+  {
+    "question": "Determine the basis for the column space of the given matrix.",
+    "answer": "Reduce the matrix to row echelon form and identify the pivot columns. The corresponding columns in the original matrix form the basis for the column space.",
+    "status": "pending",
+    "tags": "linearAlgebra basis columnSpace GDSC",
+    "difficulty": "Medium",
+    "first_name": "Karan",
+    "last_name": "Singh",
+    "exam": "Mid Sem",
+    "roll_number": "IIT2023210",
+    "subject": "Linear Algebra"
+  }
+]

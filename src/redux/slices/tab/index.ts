@@ -1,6 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from '@reduxjs/toolkit'
 
+// This state is used to maintain current tab this also could have been a normal state
+
 const initialState = {
     value: "",
 }

@@ -1,10 +1,16 @@
+//Models to Maintain type Safety
+
 export interface Question {
-  id:number,
-  "question": string;
-  "answer": string;
-  "status": string;
-  "tag": Array<string>;
-  "difficulty": string;
+  "first_name": string,
+  "last_name": string,
+  "roll_number": string,
+  "answer": string,
+  "question": string,
+  "tags": string,
+  "subject": string,
+  "exam": string,
+  "difficulty": string,
+  "status": string,
 }
 
 export interface Subject {

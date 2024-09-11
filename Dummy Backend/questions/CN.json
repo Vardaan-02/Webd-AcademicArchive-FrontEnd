@@ -1,0 +1,122 @@
+[
+    {
+        "question": "Explain the OSI model and its seven layers.",
+        "answer": "The OSI model is a conceptual framework used to understand network interactions. Its seven layers are Physical, Data Link, Network, Transport, Session, Presentation, and Application, each serving specific functions in network communication.",
+        "status": "pending",
+        "tags": "computerNetworks osiModel layers GDSC",
+        "difficulty": "Medium",
+        "first_name": "Ravi",
+        "last_name": "Kumar",
+        "exam": "Mid Sem",
+        "roll_number": "CN2023201",
+        "subject": "Computer Networks"
+    },
+    {
+        "question": "What is the difference between TCP and UDP?",
+        "answer": "TCP (Transmission Control Protocol) is connection-oriented, providing reliable data transmission, while UDP (User Datagram Protocol) is connectionless, faster, but less reliable, used for applications where speed is crucial.",
+        "status": "pending",
+        "tags": "computerNetworks tcp udp GDSC",
+        "difficulty": "Easy",
+        "first_name": "Sneha",
+        "last_name": "Bhatt",
+        "exam": "Mid Sem",
+        "roll_number": "CN2023202",
+        "subject": "Computer Networks"
+    },
+    {
+        "question": "Define IP addressing and the difference between IPv4 and IPv6.",
+        "answer": "IP addressing assigns numerical labels to devices on a network. IPv4 uses 32-bit addresses, allowing about 4.3 billion unique addresses, while IPv6 uses 128-bit addresses, greatly expanding the number of possible addresses.",
+        "status": "pending",
+        "tags": "computerNetworks ipAddressing ipv4 ipv6 GDSC",
+        "difficulty": "Medium",
+        "first_name": "Amit",
+        "last_name": "Sharma",
+        "exam": "Mid Sem",
+        "roll_number": "CN2023203",
+        "subject": "Computer Networks"
+    },
+    {
+        "question": "Explain the concept of subnetting and why it is used in networking.",
+        "answer": "Subnetting divides a large network into smaller, manageable sub-networks, improving routing efficiency and security. It allows for better utilization of IP addresses and reduces network traffic.",
+        "status": "pending",
+        "tags": "computerNetworks subnetting GDSC",
+        "difficulty": "Hard",
+        "first_name": "Megha",
+        "last_name": "Gupta",
+        "exam": "Mid Sem",
+        "roll_number": "CN2023204",
+        "subject": "Computer Networks"
+    },
+    {
+        "question": "Describe the function of a router in a network.",
+        "answer": "A router forwards data packets between computer networks, directing traffic on the internet by using IP addresses to determine the best path for data transmission.",
+        "status": "pending",
+        "tags": "computerNetworks router networking GDSC",
+        "difficulty": "Easy",
+        "first_name": "Kunal",
+        "last_name": "Tiwari",
+        "exam": "Mid Sem",
+        "roll_number": "CN2023205",
+        "subject": "Computer Networks"
+    },
+    {
+        "question": "What is DNS and how does it work?",
+        "answer": "DNS (Domain Name System) translates domain names to IP addresses, allowing users to access websites using human-readable names instead of numerical IP addresses. It works as a hierarchical system with root servers, top-level domain servers, and authoritative servers.",
+        "status": "pending",
+        "tags": "computerNetworks dns GDSC",
+        "difficulty": "Medium",
+        "first_name": "Ritika",
+        "last_name": "Singh",
+        "exam": "Mid Sem",
+        "roll_number": "CN2023206",
+        "subject": "Computer Networks"
+    },
+    {
+        "question": "Explain the working of the CSMA/CD protocol used in Ethernet networks.",
+        "answer": "CSMA/CD (Carrier Sense Multiple Access with Collision Detection) allows devices to monitor the network traffic before transmitting data. If a collision is detected, devices stop and wait for a random time before retrying.",
+        "status": "pending",
+        "tags": "computerNetworks csma/cd ethernet GDSC",
+        "difficulty": "Hard",
+        "first_name": "Pooja",
+        "last_name": "Agarwal",
+        "exam": "Mid Sem",
+        "roll_number": "CN2023207",
+        "subject": "Computer Networks"
+    },
+    {
+        "question": "What is a firewall and how does it protect a network?",
+        "answer": "A firewall is a security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It acts as a barrier between a trusted internal network and untrusted external networks.",
+        "status": "pending",
+        "tags": "computerNetworks firewall security GDSC",
+        "difficulty": "Easy",
+        "first_name": "Deepak",
+        "last_name": "Chawla",
+        "exam": "Mid Sem",
+        "roll_number": "CN2023208",
+        "subject": "Computer Networks"
+    },
+    {
+        "question": "Explain how SSL/TLS protocols work to secure network communication.",
+        "answer": "SSL/TLS (Secure Sockets Layer/Transport Layer Security) encrypts the data transmitted between clients and servers, ensuring confidentiality, data integrity, and authentication through certificates and public-key cryptography.",
+        "status": "pending",
+        "tags": "computerNetworks ssl tls security GDSC",
+        "difficulty": "Medium",
+        "first_name": "Neeraj",
+        "last_name": "Pandey",
+        "exam": "Mid Sem",
+        "roll_number": "CN2023209",
+        "subject": "Computer Networks"
+    },
+    {
+        "question": "Describe the working principle of the ARP protocol.",
+        "answer": "ARP (Address Resolution Protocol) maps an IP address to a MAC address within a local network. When a device wants to communicate, it broadcasts an ARP request to discover the MAC address associated with the target IP address.",
+        "status": "pending",
+        "tags": "computerNetworks arp protocol GDSC",
+        "difficulty": "Easy",
+        "first_name": "Simran",
+        "last_name": "Bhatia",
+        "exam": "Mid Sem",
+        "roll_number": "CN2023210",
+        "subject": "Computer Networks"
+    }
+]

@@ -8,50 +8,38 @@ import { ImCheckmark } from "react-icons/im";
 import { TbClockHour2Filled } from "react-icons/tb";
 import { FaQuestion } from "react-icons/fa";
 import { Question } from "@/models/question";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useAppSelector } from "@/redux/hooks";
+import { useSubjectQuery } from "@/services/quesAPI";
 
-const resource = [
-  {
-    id: 1,
-    question: "This is the ques.",
-    answer: "Hello My name is Vardaan.",
-    status: "pending",
-    tag: ["math", "brute force", "GDSC", "Google"],
-    difficulty: "Hard",
-  },
-  {
-    id: 2,
-    question: "This is the ques.",
-    answer: `
-How to start learning web development?
-- Learn HTML
-- Learn CSS
-- Learn JavaScript
-Use freeCodeCamp to learn all the above and much, much more !
-              `,
-    status: "completed",
-    tag: ["math", "brute force", "GDSC", "Google"],
-    difficulty: "Medium",
-  },
-];
 
+// Accordion used for displaying question
 const DashBoardInSideBar = () => {
-  const [ques, setQues] = useState(resource);
+  const subject = useAppSelector((state) => state.subject);
+  const { data: initialData } = useSubjectQuery(subject.value.toLowerCase());
 
+  const [ques, setQues] = useState<Question[]>(initialData || []);
+
+  useEffect(() => {
+    setQues(initialData || []);
+  }, [subject.value, initialData]);
+
+  //This function is to change the current status of ques array
   const mark = (file: Question, s: string) => {
-    let newArr:Array<Question> = [];
-    ques.forEach((ele) => {
+    // Update the object immutably , bahut issue aaya hai isme 
+    const newArr = ques.map((ele) => {
       if (ele === file) {
-        ele.status = s;
-        newArr.push(ele);
-      } else newArr.push(ele);
+        return { ...ele, status: s };
+      }
+      return ele; 
     });
+    
     setQues(newArr);
   };
 
   return (
     <>
-      <div className="mt-16 w-screen flex flex-col gap-2 p-4 overflow-y-scroll">
+      <div className="mt-16 w-screen flex flex-col gap-2 p-4 overflow-y-scroll no-scrollbar">
         {ques.map((file, idx) => (
           <Accordion type="single" collapsible className="w-full" key={idx}>
             <AccordionItem value="item-1">

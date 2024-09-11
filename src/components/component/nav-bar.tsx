@@ -14,17 +14,17 @@ export function NavBar() {
 
   const userDetails = useAppSelector((state) => state.loginDetails);
 
-  const currentTab = useAppSelector(state => state.tab);
-
   return (
     <header className="shadow-md fixed w-screen">
-      <div className="container flex h-16 items-center justify-between">
-        <a href="#" className="flex items-center gap-2">
+      <div className="container flex h-16 items-center justify-between bg-white dark:bg-[#121212]">
+        <a className="flex items-center gap-2">
           <span className="text-lg font-semibold">GDSC</span>
         </a>
         <nav className="hidden space-x-6 md:flex">
           <a
             onClick={() => {
+              //Handling change tab , Basically a state in maintained in redux called Tab and here using setTab that state is changed
+
               navigate("/");
               dispatch(setTab("/"));
             }}
@@ -34,6 +34,7 @@ export function NavBar() {
           </a>
           <a
             onClick={() => {
+              //Checking if we have a user or not , This could be way better but due to lack of good backend i have done it like this
               if (userDetails.first_name.length > 0) {
                 navigate("/dashboard");
                 dispatch(setTab("/dashboard"));
@@ -54,19 +55,22 @@ export function NavBar() {
           >
             Resources
           </a>
-          {userDetails.admin && (
-            <a
-              onClick={() => {
-                if (userDetails.admin) {
-                  navigate("/admin");
-                  dispatch(setTab("/admin"));
-                } else toast.error("Not a Admin");
-              }}
-              className="text-sm font-medium hover:text-primary transition-colors"
-            >
-              Admin
-            </a>
-          )}
+          {
+            //Checking for If the user is admin or not
+            userDetails.admin && (
+              <a
+                onClick={() => {
+                  if (userDetails.admin) {
+                    navigate("/admin");
+                    dispatch(setTab("/admin"));
+                  } else toast.error("Not a Admin");
+                }}
+                className="text-sm font-medium hover:text-primary transition-colors"
+              >
+                Admin
+              </a>
+            )
+          }
           <a
             onClick={() => {
               navigate("/about");

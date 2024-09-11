@@ -7,6 +7,8 @@ import { IconBrandGoogle } from "@tabler/icons-react";
 import { useSignUpMutation } from "@/services/authAPI";
 import { useNavigate } from "react-router";
 
+
+//Direct Component From aceternity , Added new Components to suit requirements
 export function SignUpForm() {
   const navigate = useNavigate();
 

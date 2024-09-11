@@ -2,6 +2,8 @@ import { Details } from "@/models/user";
 import { createSlice } from "@reduxjs/toolkit";
 import type { PayloadAction } from "@reduxjs/toolkit";
 
+// This is state for login Details which i get from server on login , These are stored because they are needed in many components through out the website
+
 const initialState: Details = {
   first_name: "",
   last_name: "",

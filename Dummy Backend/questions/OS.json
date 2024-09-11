@@ -1,0 +1,122 @@
+[
+    {
+        "question": "Explain the concept of virtual memory and its advantages.",
+        "answer": "Virtual memory allows the execution of processes that may not be completely in main memory. It provides the illusion of a large, contiguous memory space, which improves multitasking, program execution, and system stability.",
+        "status": "pending",
+        "tags": "os virtualMemory memoryManagement GDSC",
+        "difficulty": "Medium",
+        "first_name": "Karan",
+        "last_name": "Patel",
+        "exam": "Mid Sem",
+        "roll_number": "OS2023201",
+        "subject": "Operating Systems"
+    },
+    {
+        "question": "Describe the different types of scheduling algorithms in operating systems.",
+        "answer": "Common scheduling algorithms include First-Come-First-Served (FCFS), Shortest Job Next (SJN), Priority Scheduling, Round Robin (RR), and Multilevel Queue Scheduling, each with distinct methods for managing process execution order.",
+        "status": "pending",
+        "tags": "os scheduling algorithms GDSC",
+        "difficulty": "Medium",
+        "first_name": "Ananya",
+        "last_name": "Kohli",
+        "exam": "Mid Sem",
+        "roll_number": "OS2023202",
+        "subject": "Operating Systems"
+    },
+    {
+        "question": "What is a deadlock? Explain the necessary conditions for a deadlock to occur.",
+        "answer": "A deadlock is a situation where a set of processes is unable to proceed because each is waiting for a resource held by another. The necessary conditions are mutual exclusion, hold and wait, no preemption, and circular wait.",
+        "status": "pending",
+        "tags": "os deadlock conditions GDSC",
+        "difficulty": "Hard",
+        "first_name": "Rahul",
+        "last_name": "Verma",
+        "exam": "Mid Sem",
+        "roll_number": "OS2023203",
+        "subject": "Operating Systems"
+    },
+    {
+        "question": "Explain the concept of paging and how it differs from segmentation.",
+        "answer": "Paging is a memory management scheme that eliminates the need for contiguous allocation by dividing memory into fixed-size pages. Segmentation divides memory into variable-size segments, each representing a logical unit, like code or data.",
+        "status": "pending",
+        "tags": "os memoryManagement paging segmentation GDSC",
+        "difficulty": "Medium",
+        "first_name": "Isha",
+        "last_name": "Malik",
+        "exam": "Mid Sem",
+        "roll_number": "OS2023204",
+        "subject": "Operating Systems"
+    },
+    {
+        "question": "Discuss the role of the operating system in process management.",
+        "answer": "The operating system manages processes by handling process creation, scheduling, synchronization, and termination. It allocates resources, manages process states, and ensures efficient CPU utilization.",
+        "status": "pending",
+        "tags": "os processManagement GDSC",
+        "difficulty": "Easy",
+        "first_name": "Rohan",
+        "last_name": "Sharma",
+        "exam": "Mid Sem",
+        "roll_number": "OS2023205",
+        "subject": "Operating Systems"
+    },
+    {
+        "question": "Explain the difference between a process and a thread.",
+        "answer": "A process is an independent program with its own memory space, while a thread is a lightweight unit of a process that shares the same memory. Threads are faster to create and switch between but may require synchronization.",
+        "status": "pending",
+        "tags": "os processes threads GDSC",
+        "difficulty": "Easy",
+        "first_name": "Neha",
+        "last_name": "Sethi",
+        "exam": "Mid Sem",
+        "roll_number": "OS2023206",
+        "subject": "Operating Systems"
+    },
+    {
+        "question": "What is a file system, and how does it manage data on disk?",
+        "answer": "A file system organizes and manages data on a disk, providing a way to store, retrieve, and update files. It includes structures like directories, inodes, and allocation tables to handle data efficiently.",
+        "status": "pending",
+        "tags": "os fileSystem dataManagement GDSC",
+        "difficulty": "Medium",
+        "first_name": "Aditi",
+        "last_name": "Desai",
+        "exam": "Mid Sem",
+        "roll_number": "OS2023207",
+        "subject": "Operating Systems"
+    },
+    {
+        "question": "Describe the concept of inter-process communication (IPC) and its mechanisms.",
+        "answer": "IPC allows processes to communicate and synchronize with each other. Common IPC mechanisms include message passing, shared memory, semaphores, and pipes.",
+        "status": "pending",
+        "tags": "os ipc communication GDSC",
+        "difficulty": "Hard",
+        "first_name": "Nitin",
+        "last_name": "Agarwal",
+        "exam": "Mid Sem",
+        "roll_number": "OS2023208",
+        "subject": "Operating Systems"
+    },
+    {
+        "question": "What is a critical section, and how do operating systems handle critical section problems?",
+        "answer": "A critical section is a code segment where shared resources are accessed. OS handle critical section problems using synchronization mechanisms like mutexes, semaphores, and monitors to prevent race conditions.",
+        "status": "pending",
+        "tags": "os synchronization criticalSection GDSC",
+        "difficulty": "Medium",
+        "first_name": "Pooja",
+        "last_name": "Srivastava",
+        "exam": "Mid Sem",
+        "roll_number": "OS2023209",
+        "subject": "Operating Systems"
+    },
+    {
+        "question": "Explain the working of the Round Robin scheduling algorithm and its impact on process management.",
+        "answer": "Round Robin scheduling assigns each process a fixed time slice and cycles through the processes in a circular queue. It ensures fair CPU time distribution but can lead to higher turnaround times if the time slice is too short.",
+        "status": "pending",
+        "tags": "os scheduling roundRobin GDSC",
+        "difficulty": "Easy",
+        "first_name": "Siddharth",
+        "last_name": "Kumar",
+        "exam": "Mid Sem",
+        "roll_number": "OS2023210",
+        "subject": "Operating Systems"
+    }
+]
