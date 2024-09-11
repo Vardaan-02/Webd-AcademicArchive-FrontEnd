@@ -1,19 +1,81 @@
-# React + TypeScript + Vite
+# 🌟 Project Name
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is built using React with Vite as the build tool. It includes a dummy backend for handling login and signup functionalities, and uses ShadCN and Aceternity UI libraries for UI components and utilities.
 
-Currently, two official plugins are available:
+## 📋 Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🖥️ Node.js (version 14 or later)
+- 📦 npm (version 6 or later)
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### 1. 🌀 Clone the Repository
 
-- Configure the top-level `parserOptions` property like this:
+```bash
+git clone <repository-url>
+cd <repository-folder>
+```
 
-```js
+```bash
+cd backend
+npm install
+```
+
+**Section 3: Frontend Setup and ShadCN/Aceternity Installation**
+
+markdown
+### 3. 🎨 Set Up the Frontend
+
+Navigate to the frontend directory and install the required dependencies:
+
+```bash
+cd ../frontend
+npm install
+```
+
+```bash
+cd frontend
+```
+
+
+**Section 4: Running the Application**
+
+### 5. 🏃‍♂️ Run the Application
+
+#### Backend
+
+To run the backend:
+
+```bash
+cd backend
+npm start
+```
+
+```bash
+cd ../frontend
+npm run dev
+```
+
+
+**Section 5: Vite Plugins for React and ESLint Configuration**
+
+### ⚙️ Vite Plugins for React
+
+Currently, two official plugins are available for React:
+
+- `@vitejs/plugin-react` 📦: Uses Babel for Fast Refresh.
+- `@vitejs/plugin-react-swc` ⚡: Uses SWC for Fast Refresh.
+
+### 🔍 Expanding the ESLint Configuration
+
+If you are developing a production application, it is recommended to update the ESLint configuration to enable type-aware lint rules.
+
+#### 🛠️ Configure the Top-Level `parserOptions` Property
+
+Update your ESLint configuration as follows:
+
+```javascript
+// eslint.config.js
 export default tseslint.config({
   languageOptions: {
     // other options...
@@ -22,29 +84,44 @@ export default tseslint.config({
       tsconfigRootDir: import.meta.dirname,
     },
   },
-})
+});
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+**Section 6: ESLint Plugin React Setup and Developer’s Note**
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+#### 📦 Install `eslint-plugin-react` and Update the Config
+
+To expand the ESLint configuration for React, follow these steps:
+
+1. Install the React plugin for ESLint:
+
+    ```bash
+    npm install eslint-plugin-react --save-dev
+    ```
+
+2. Update the ESLint configuration:
+
+    ```javascript
+    // eslint.config.js
+    import react from 'eslint-plugin-react';
+
+    export default tseslint.config({
+      // Set the react version
+      settings: { react: { version: '18.3' } },
+      plugins: {
+        // Add the react plugin
+        react,
+      },
+      rules: {
+        // other rules...
+        // Enable its recommended rules
+        ...react.configs.recommended.rules,
+        ...react.configs['jsx-runtime'].rules,
+      },
+    });
+    ```
+
+### 📝 Developer's Note
+
+I primarily focused on showcasing what I can do within the constraints of this project. I acknowledge that the UI is not as polished as it could be and that there is a lot of room for improvement. Due to time constraints, I was not able to give this my 100%, but I believe it still effectively demonstrates the core features and potential of the setup. 💪
